@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %}Priprema_za_ispit{% endblock title %}
+
+
+{% block specifika %}
+<!-- logo and top of page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: LightGray;height: 90px;">
+            <img am-TopLogo alt="SECUREVIEW"  src="assets/logo.png" style="margin-top: 5px; padding-left: 25px;" class="img-responsive">
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="background-color: LightGray;height: 90px;">
+          </div>
+        </div>
+      </div>
+<!-- navbar beginig -->
+      <nav class="navbar  navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          >
+            <span class="sr-only"> Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+        
+         <a class="navbar-brand" href="https://cpstat-216518.appspot.com/index.php" style="padding-left: 35px;">Kontakt</a>
+         
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://cpstat-216518.appspot.com/">Početna</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/O_nama">O nama</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Lokacije">Lokacije</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Cenovnik">Cenovnik</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Konsultacije">Konsultacije</a> </li>
+             <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://cpstat-216518.appspot.com/Statisticka_analiza_podataka">Statističke analize podataka</a></li>
+                    <li class="active"><a href="#">Priprema za ispit</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Ucenje_na_daljinu">Učenje na daljinu</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/kursevi">Kursevi</a></li>
+                  </ul>
+                </li>
+             </ul>
+             </div>
+          </div>
+      </nav>
+<!-- navbar ending -->
+<!-- text and picture middle of page beginnig -->
+      <div class="container-fluid" style="background-color: #CFECEC;">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 510px;">
+              <div class="textexem">
+                <h3>Ako pripremate ispit iz statistike, ekonometrije ili operacionih istraživanja garantujemo Vam uspeh.</h3>
+
+                  <h3><b><u>U prethodne dve decenije prolaznost naših studenata na prvom ispitnom roku iznosi 97,3%!!!</u></b></h3>
+
+                <h3>Obratite nam se ako Vam je potrebna:</h3>
+                  <div style="padding-left: 40px;">
+                  <h3>
+                    <li>teorija,</li>
+                    <li>primeri i zadaci kakvi se pojavljuju na ispitu,</li>
+                    <li>upotreba statističkih softvera,</li>
+                    <li>tumačenje rezultata iz statističkih softvera i dr.</li>
+                  </h3>
+                  </div>
+                <h3>Ako slučajno ne položite, za šta je verovatnoća 2,7%, mi vas besplatno pripremamo sve dok ne položite ispit.</h3>
+
+                <h3>Individualni časovi prilagođeni su vašem predznanju i programu koji treba da savladate, bez obzira da li se ispit polaže kroz rešavanje zadataka na papiru ili u nekom od statističkih softvera.</h3>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 510px;">
+              <img src="assets/casovi.jpg" alt="Statistic View" style="margin-top: 20px; padding-left: 20px;">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="text-align: justify; margin-top: 0px; height: 160px;">
+                <h3>Naš prostor obezbeđuje mogućnost za rad u grupama za studente koji se pripremaju za isti ispit, ali ne preporučujemo da grupa bude veća od četiri studenta.</h3>
+                <h3>Ako ne želite da vas podučavamo celokupno gradivo za ispit, već samo pojedine nastavne jedinice po Vašem izboru, javite se da Vam obezbedimo nivoa znanja koji želite da postignete.</h3>
+            </div>
+          </div>
+        </div>
+<!-- text and picture middle of page end -->
+      <!-- footer beggin -->
+        <div class="footerpage">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="copyright">
+                 © 2017, <a href="https://svartwebdeveloper.000webhostapp.com/">SVART Web Developer </a>, All rights reserved
+                 </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+      <!-- footer end -->
+{% endblock specifika %}

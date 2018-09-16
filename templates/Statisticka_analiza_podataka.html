@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}Statisticka_analiza_podataka{% endblock title %}
+
+
+{% block specifika %}
+<!-- logo and top of page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: LightGray;height: 90px;">
+            <img am-TopLogo alt="SECUREVIEW"  src="assets/logo.png" style="margin-top: 5px; padding-left: 25px;" class="img-responsive">
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="background-color: LightGray;height: 90px;">
+          </div>
+        </div>
+      </div>
+<!-- navbar beginig -->
+      <nav class="navbar  navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          >
+            <span class="sr-only"> Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+        
+         <a class="navbar-brand" href="https://cpstat-216518.appspot.com/index.php" style="padding-left: 35px;">Kontakt</a>
+         
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://cpstat-216518.appspot.com/">Početna</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/O_nama">O nama</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Lokacije">Lokacije</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Cenovnik">Cenovnik</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Konsultacije">Konsultacije</a> </li>
+             <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="active"><a href="#">Statističke analize podataka</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Priprema_za_ispit">Priprema za ispit</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Ucenje_na_daljinu">Učenje na daljinu</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/kursevi">Kursevi</a></li>
+                  </ul>
+                </li>
+             </ul>
+             </div>
+          </div>
+        </nav>
+<!-- navbar ending -->
+<!-- text and picture middle of page beginnig -->
+      <div class="container-fluid" style="background-color: #CFECEC;position: relative;">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 440px;">
+              <div class="textstatisticanalise">
+                <h3>Ako pišete završni, diplomski, master rad, doktorsku disertaciju ili naučno istraživački rad (za časopise sa SSCI liste), naš tim može da Vam pomogne sa statističkom obradom podataka.</h3>
+                  <div style="padding-left: 40px;">
+                    <h3>
+                        <li>deskriptivna statistička analiza,</li>
+                        <li>testiranje statističkih hipoteza,</li>
+                        <p style="padding-left: 30px;">(parametarski i neparametarski testovi)</p>
+                        <li>korelaciona i regresiona analiza </li>
+                        <p style="padding-left: 30px;">(prosta i višestruka, logistička multinomijalna)</p>
+                        <li>dinamička analiza,</li>
+                        <li>eksploratorna i konfirmatorna faktorska analiza,</li>
+                        <li>analiza glavnih komponenti,</li>
+                        <li>analiza preživljavanja,</li>
+                        <li>klaster analiza i druge multivarijatne analize.</li>
+                    </h3>
+                  </div>
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 440px;">
+              <img src="assets/stat1.jpg" alt="Statistic View" style="margin-top: 30px; padding-left: 40px;">
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid" style="background-color: #CFECEC;position: relative;">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 480px;">
+                <div style="margin-top: 30px; padding-left: 40px;">
+                  <img src="assets/spss.jpg" alt="Statistic View">
+                  <img src="assets/statistica.jpg" alt="Statistic View">
+                  <img src="assets/R-Studio.jpg" alt="Statistic View">
+                    <table style="padding-left: 60px;">
+                        <tr>
+                            <th style="padding-left: 60px;"><a href="https://spss.en.softonic.com/download">spss</a></th>
+                            <th style="padding-left: 145px;"><a href="http://statistica.software.informer.com/10.0/">statistica</a></th>
+                            <th style="padding-left: 140px;"><a href="https://www.rstudio.com/products/rstudio/download/">R-Studio</a></th>
+                        </tr>
+                    </table>
+                </div>
+                <div style="margin-top: 50px; padding-left: 40px;">
+                  <img src="assets/stata.jpg" alt="Statistic View">
+                  <img src="assets/EViews.jpg" alt="Statistic View">
+                  <img src="assets/excel.jpg" alt="Statistic View">
+                    <table style="padding-left: 60px;">
+                        <tr>
+                            <th style="padding-left: 60px;"><a href="https://www.stata.com/">stata</a></th>
+                            <th style="padding-left: 105px;"><a href="http://www.eviews.com/download/download.shtml">EViews</a></th>
+                            <th style="padding-left: 120px;"><a href="https://products.office.com/sr-Latn-RS/?omkt=sr-Latn-RS">excel</a></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 480px;">
+              <div class="textconsultations">
+                <h3>Obradu podataka možemo da izvršimo u svim statističkim softverima:</h3>
+                  <div style="padding-left: 40px;">
+                     <h3>
+                        <li>SPSS,</li>
+                        <li>Statistica,</li>
+                        <li>R (R Studio, EZR)</li>
+                        <li>Stata,</li>
+                        <li>Eviews,</li>
+                        <li>Excel i drugi.</li>
+                     </h3>
+                  </div>
+                <h3>Sve rezultate izrađujemo u skladu sa APA standardima za izveštavanje sa
+                    detaljnim tumačenjem rezultata i objašnjenjem metodologije obrade.</h3>
+                <h3>Rezultate Vam možemo poslati i elektronskom poštom.
+                    Ako mentor zahteva dodatne analize iste Vam nećemo naplatiti,
+                    a podatke koje ste nam poslali čuvaćemo kao poslovnu tajnu.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- text and picture middle of page end -->
+        <!-- footer beggin -->
+        <div class="footerpage">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="copyright">
+                 © 2017, <a href="https://svartwebdeveloper.000webhostapp.com/">SVART Web Developer  </a>, All rights reserved
+                 </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+        <!-- footer end -->
+{% endblock specifika %}

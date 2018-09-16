@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block title %}O_nama{% endblock title %}
+
+
+{% block specifika %}
+<!-- logo and top of page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: LightGray;height: 90px;">
+            <img am-TopLogo alt="SECUREVIEW"  src="assets/logo.png" style="margin-top: 5px; padding-left: 25px;" class="img-responsive">
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="background-color: LightGray;height: 90px;">
+          </div>
+        </div>
+      </div>
+<!-- navbar beginig -->
+      <nav class="navbar  navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          >
+            <span class="sr-only"> Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+        
+         <a class="navbar-brand" href="https://cpstat-216518.appspot.com/index.php" style="padding-left: 35px;">Kontakt</a>
+         
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://cpstat-216518.appspot.com/">Početna</a> </li>
+             <li class="active"> <a href="#">O nama</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Lokacije">Lokacije</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Cenovnik">Cenovnik</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Konsultacije">Konsultacije</a> </li>
+             <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://cpstat-216518.appspot.com/Statisticka_analiza_podataka">Statističke analize podataka</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Priprema_za_ispit">Priprema za ispit</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Ucenje_na_daljinu">Učenje na daljinu</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/kursevi">Kursevi</a></li>
+                  </ul>
+                </li>
+             </ul>
+             </div>
+          </div>
+        </nav>
+<!-- navbar ending -->
+
+      <div class="container-fluid" style="background-color: #CFECEC;">
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="position: relative;">
+              <div class="textaboutus">
+                <h3><b>Mi smo tim statističara sa višegodišnjim iskustvom u pripremanju studenata za ispite i statističkim analizama podataka.</b></h3>
+
+                <h3>Pripremali smo studente od osnovnih do doktorskih studija u svim naučnim oblastima:</h3>
+                <div style="padding-left: 20px;">
+                    <h3>
+                      <li>Ekonomija</li>
+                      <li>Medicina</li>
+                      <li>Poljoprivreda</li>
+                      <li>Biologija</li>
+                      <li>Sociologija</li>
+                      <li>Psihologija</li>
+                      <li>Veterina</li>
+                      <li>Šumarstvo</li>
+                      <li>Pedagogija</li>
+                      <li>Specijalna edukacija i rehabilitacija itd.</li>
+                    </h3>
+                 </div>
+               </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="position: relative;">
+              <div class="textaboutus">
+                <h3>Izvršili smo više od 300 statističkih analiza podataka u različitim statističkim softverima: SPSS, Statistica, R, Stata, Eviews, PSPP, Excel...počev od deskriptivne do multivarijatnih metoda.</h3>
+
+                <h3>Naš tim prevodi najpoznatije svetske udžbenike statistike sa željom da ih objavi na srpskom jeziku.</h3>
+
+                <h3><u>Sarađujemo sa profesorima statistike na univerzitetima u Srbiji i aktivni smo članovi statističke zajednice u Srbiji (Statističko društvo Srbije i Statističko društvo Vojvodine).</u></h3>
+
+                <h3><b>Okupili smo se jer delimo iste vrednosti:</b> <i>posvećenost sopstvenoj misiji i cilju, strateški pristup i profesionalizam, stručnost, fleksibilnost, radoznalost i težnju za napretkom, ali pre svega ljubav prema statistici i drugim kvantitativnim metodama u istraživanjima (ekonometriji, biometrici, psihometriji, operacionim istraživanjima i dr.)</i></h3>
+              </div>
+             </div>
+          </div>
+      </div>
+        <!-- footer beggin -->
+            <div class="footerpage">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="copyright">
+                     © 2017, <a href="https://svartwebdeveloper.000webhostapp.com/">SVART Web Developer</a>, All rights reserved
+                     </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+        <!-- footer end -->
+{% endblock specifika %}

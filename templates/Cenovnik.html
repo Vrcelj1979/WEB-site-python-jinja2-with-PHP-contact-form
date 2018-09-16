@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Cenovnik{% endblock title %}
+
+
+{% block specifika %}
+<!-- logo and top of page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: LightGray;height: 90px;">
+            <img am-TopLogo alt="SECUREVIEW"  src="assets/logo.png" style="margin-top: 5px; padding-left: 25px;" class="img-responsive">
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="background-color: LightGray;height: 90px;">
+          </div>
+        </div>
+      </div>
+<!-- navbar beginig -->
+      <nav class="navbar  navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          >
+            <span class="sr-only"> Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+        
+         <a class="navbar-brand" href="https://cpstat-216518.appspot.com/index.php" style="padding-left: 35px;">Kontakt</a>
+         
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://cpstat-216518.appspot.com/">Početna</a> </li>
+                   <li> <a href="https://cpstat-216518.appspot.com/O_nama">O nama</a> </li>
+                   <li> <a href="https://cpstat-216518.appspot.com/Lokacije">Lokacije</a> </li>
+                   <li class="active"> <a href="#">Cenovnik</a> </li>
+                   <li> <a href="https://cpstat-216518.appspot.com/Konsultacije">Konsultacije</a> </li>
+                   <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="https://cpstat-216518.appspot.com/Statisticka_analiza_podataka">Statističke analize podataka</a></li>
+                          <li><a href="https://cpstat-216518.appspot.com/Priprema_za_ispit">Priprema za ispit</a></li>
+                          <li><a href="https://cpstat-216518.appspot.com/Ucenje_na_daljinu">Učenje na daljinu</a></li>
+                          <li><a href="https://cpstat-216518.appspot.com/kursevi">Kursevi</a></li>
+                  </ul>
+                </li>
+             </ul>
+             </div>
+          </div>
+        </nav>
+<!-- navbar ending -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background-color: #CFECEC;height: 500px; position: relative;">
+            <div class="textprice">
+              <h2>Cene časova prilagođene su nivou studija, ali i potrebnom broju časova tako da budemo sigurni da ih možete sebi priuštiti.</h2>
+   
+              <h2>Popust prilikom uplate paketa od 20, 10 ili 5 časova.</h2>
+
+              <h2>Cene statističkih analiza određene su prema vrsti i broju analiza koje treba da uradimo.</h2>
+
+              <h2><b>Slobodno nas <a href="https://cpstat-216019.appspot.com/index.php">kontaktirajte</a> i uverite se da ćemo Vam dati najbolju ponudu.</b></h2>
+            </div>
+          </div>
+          <!-- comment table begiinig -->
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background-color: #CFECEC;height: 500px; position: relaative;">
+            <div style="margin-top: 50px; padding-left: 100px;">
+                    <img src="assets/rate.jpg" alt="Consultation View">
+            </div>
+          </div> <!-- comment table end -->
+          <!-- footer beginnig -->
+            <div class="footer-bottom">
+              <div class="container">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="copyright">
+                      © 2017, <a href="https://svartwebdeveloper.000webhostapp.com/">SVART Web Developer </a>, All rights reserved
+                    </div>
+                  </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
+                </div>
+              </div>
+            </div>
+          <!-- footer end -->
+{% endblock specifika %}

@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}Ucenje_na_daljinu{% endblock title %}
+
+
+{% block specifika %}
+<!-- logo and top of page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="background-color: LightGray;height: 90px;">
+            <img am-TopLogo alt="SECUREVIEW"  src="assets/logo.png" style="margin-top: 5px; padding-left: 25px;" class="img-responsive">
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" style="background-color: LightGray;height: 90px;">
+          </div>
+        </div>
+      </div>
+<!-- navbar beginig -->
+      <nav class="navbar  navbar-inverse">
+        <div class="container">
+          <button type="button" class="navbar-toggle"
+          data-toggle="collapse"
+          data-target=".navbar-collapse"
+          >
+            <span class="sr-only"> Toggle navigation</span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </button>
+        
+         <a class="navbar-brand" href="https://cpstat-216518.appspot.com/index.php" style="padding-left: 35px;">Kontakt</a>
+         
+             <div class="navbar-collapse collapse">
+                 <ul class="nav navbar-nav navbar-right">
+               <li><a href="https://cpstat-216518.appspot.com/">Početna</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/O_nama">O nama</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Lokacije">Lokacije</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Cenovnik">Cenovnik</a> </li>
+             <li> <a href="https://cpstat-216518.appspot.com/Konsultacije">Konsultacije</a> </li>
+             <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Usluge <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://cpstat-216518.appspot.com/Statisticka_analiza_podataka">Statističke analize podataka</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/Priprema_za_ispit">Priprema za ispit</a></li>
+                    <li class="active"><a href="#">Učenje na daljinu</a></li>
+                    <li><a href="https://cpstat-216518.appspot.com/kursevi">Kursevi</a></li>
+                  </ul>
+                </li>
+             </ul>
+             </div>
+          </div>
+        </nav>
+<!-- navbar ending -->
+<!-- text and picture middle of page beginnig -->
+        <div class="container-fluid" style="background-color: #CFECEC;>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 500px;">
+              <div class="textlearningdistance">
+                  <h3>Ukoliko niste u mogućnosti da prisustvujete časovima, imate mogućnost za učenje na daljinu preko Skype-a.</h3>
+
+                  <h3>Naš tim će Vam pomoći bez obzira da li studirate na engleskom, nemačkom ili francuskom govornom području.</h3>
+
+                  <h3>Podučavali smo studente koji studiraju u Holandiji, Češkoj, Poljskoj, Švajcarskoj, Francuskoj i Italiji.</h3>
+
+                  <h3>Posebna prednost učenja na daljinu je mogućnost da snimate časove kako bi ih preslušali ponovo.</h3>
+              </div>
+              <div>
+                  <img src="assets/stat2.jpg" alt="Statistic name" style="padding-left: 50px;">
+              </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="height: 500px;">
+                <img src="assets/ucenje na daljinu.jpg" alt="learning on distance" style="margin-top: 60px; padding-left: 50px;">
+                <div>
+                    <h3>Ukoliko još nemate instaliran Skype kliknite <a href="https://www.skype.com/en/new/">ovde.</a></h3>
+                </div>
+            </div>
+        </div>
+<!-- text and picture middle of page end -->
+        <!-- footer beggin -->
+        <div class="footerpage">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="copyright">
+                 © 2017, <a href="https://svartwebdeveloper.000webhostapp.com/">SVART Web Developer </a>, All rights reserved
+                 </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+        <!-- footer end -->
+{% endblock specifika %}
